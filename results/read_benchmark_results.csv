@@ -1,0 +1,29 @@
+workload,description,trial,mysql_ms,mongodb_ms,results_equivalent,mysql_rows,mongodb_documents,indexes_changed
+count_pm25,Count PM2.5 records for µg/m³,1,443.683,625.0293,yes,1050603,1050603,no
+count_pm25,Count PM2.5 records for µg/m³,2,415.0046,708.5897,yes,1050603,1050603,no
+count_pm25,Count PM2.5 records for µg/m³,3,418.1716,611.9249,yes,1050603,1050603,no
+count_pm25,Count PM2.5 records for µg/m³,4,434.3289,734.1469,yes,1050603,1050603,no
+count_pm25,Count PM2.5 records for µg/m³,5,381.3189,655.0985,yes,1050603,1050603,no
+count_pm25,Count PM2.5 records for µg/m³,6,404.4109,649.0907,yes,1050603,1050603,no
+count_pm25,Count PM2.5 records for µg/m³,7,372.6104,707.8252,yes,1050603,1050603,no
+count_sensor,Count records for sensor_id=5588,1,241.1098,451.4115,yes,1050603,1050603,no
+count_sensor,Count records for sensor_id=5588,2,216.6202,512.0967,yes,1050603,1050603,no
+count_sensor,Count records for sensor_id=5588,3,271.6861,490.904,yes,1050603,1050603,no
+count_sensor,Count records for sensor_id=5588,4,184.3066,488.339,yes,1050603,1050603,no
+count_sensor,Count records for sensor_id=5588,5,257.4144,514.6795,yes,1050603,1050603,no
+count_sensor,Count records for sensor_id=5588,6,222.4684,608.7827,yes,1050603,1050603,no
+count_sensor,Count records for sensor_id=5588,7,247.4265,474.2373,yes,1050603,1050603,no
+time_range,Count and average PM2.5 in March 2020 UTC,1,487.7116,712.1092,yes,1050603,1050603,no
+time_range,Count and average PM2.5 in March 2020 UTC,2,390.7753,806.3504,yes,1050603,1050603,no
+time_range,Count and average PM2.5 in March 2020 UTC,3,503.2978,675.562,yes,1050603,1050603,no
+time_range,Count and average PM2.5 in March 2020 UTC,4,429.1837,711.8041,yes,1050603,1050603,no
+time_range,Count and average PM2.5 in March 2020 UTC,5,475.4128,751.4395,yes,1050603,1050603,no
+time_range,Count and average PM2.5 in March 2020 UTC,6,424.1899,777.0486,yes,1050603,1050603,no
+time_range,Count and average PM2.5 in March 2020 UTC,7,451.8407,635.0664,yes,1050603,1050603,no
+group_by_pollutant_unit,Group all records by pollutant and unit,1,1214.4064,1009.4304,yes,1050603,1050603,no
+group_by_pollutant_unit,Group all records by pollutant and unit,2,1091.0921,1095.4683,yes,1050603,1050603,no
+group_by_pollutant_unit,Group all records by pollutant and unit,3,1230.4428,1113.7435,yes,1050603,1050603,no
+group_by_pollutant_unit,Group all records by pollutant and unit,4,1172.8508,1106.2629,yes,1050603,1050603,no
+group_by_pollutant_unit,Group all records by pollutant and unit,5,1227.7716,1170.0591,yes,1050603,1050603,no
+group_by_pollutant_unit,Group all records by pollutant and unit,6,1137.0589,1129.1697,yes,1050603,1050603,no
+group_by_pollutant_unit,Group all records by pollutant and unit,7,1062.8482,1063.4762,yes,1050603,1050603,no

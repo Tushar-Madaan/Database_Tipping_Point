@@ -1,0 +1,29 @@
+workload,description,trial,mysql_ms,mongodb_ms,results_equivalent,mysql_rows,mongodb_documents,index_configuration
+count_pm25,Count PM2.5 records,1,62.3735,50.7073,yes,1050603,1050603,indexed
+count_pm25,Count PM2.5 records,2,52.1659,91.8944,yes,1050603,1050603,indexed
+count_pm25,Count PM2.5 records,3,71.3211,44.6582,yes,1050603,1050603,indexed
+count_pm25,Count PM2.5 records,4,55.66,77.1159,yes,1050603,1050603,indexed
+count_pm25,Count PM2.5 records,5,81.3873,53.9812,yes,1050603,1050603,indexed
+count_pm25,Count PM2.5 records,6,65.1682,87.1397,yes,1050603,1050603,indexed
+count_pm25,Count PM2.5 records,7,80.5964,50.4796,yes,1050603,1050603,indexed
+count_sensor,Count records for sensor 5588,1,4.114,12.3959,yes,1050603,1050603,indexed
+count_sensor,Count records for sensor 5588,2,4.302,10.7428,yes,1050603,1050603,indexed
+count_sensor,Count records for sensor 5588,3,3.522,10.507,yes,1050603,1050603,indexed
+count_sensor,Count records for sensor 5588,4,3.5205,9.2569,yes,1050603,1050603,indexed
+count_sensor,Count records for sensor 5588,5,4.2228,13.3793,yes,1050603,1050603,indexed
+count_sensor,Count records for sensor 5588,6,3.5791,10.2247,yes,1050603,1050603,indexed
+count_sensor,Count records for sensor 5588,7,5.34,11.7178,yes,1050603,1050603,indexed
+time_range,March 2020 PM2.5 time range,1,11.2046,10.6219,yes,1050603,1050603,indexed
+time_range,March 2020 PM2.5 time range,2,5.9662,11.4828,yes,1050603,1050603,indexed
+time_range,March 2020 PM2.5 time range,3,5.6229,7.3127,yes,1050603,1050603,indexed
+time_range,March 2020 PM2.5 time range,4,6.2252,9.4699,yes,1050603,1050603,indexed
+time_range,March 2020 PM2.5 time range,5,5.3577,10.0768,yes,1050603,1050603,indexed
+time_range,March 2020 PM2.5 time range,6,5.4306,11.1284,yes,1050603,1050603,indexed
+time_range,March 2020 PM2.5 time range,7,5.4267,9.7672,yes,1050603,1050603,indexed
+group_by_pollutant_unit,Group by pollutant and unit,1,2634.074,1115.4766,yes,1050603,1050603,indexed
+group_by_pollutant_unit,Group by pollutant and unit,2,2644.06,1169.5797,yes,1050603,1050603,indexed
+group_by_pollutant_unit,Group by pollutant and unit,3,2710.4624,1046.5571,yes,1050603,1050603,indexed
+group_by_pollutant_unit,Group by pollutant and unit,4,2521.2744,1074.2623,yes,1050603,1050603,indexed
+group_by_pollutant_unit,Group by pollutant and unit,5,2617.0465,1124.3987,yes,1050603,1050603,indexed
+group_by_pollutant_unit,Group by pollutant and unit,6,3567.5185,2167.3256,yes,1050603,1050603,indexed
+group_by_pollutant_unit,Group by pollutant and unit,7,3495.8879,1510.4405,yes,1050603,1050603,indexed

@@ -1,0 +1,350 @@
+{
+  "source": "C:\\Users\\Asus\\OneDrive\\Documents\\Database_Tipping_Point\\data_raw\\data_gang_gang.zip",
+  "generated_at_utc": "2026-10-12T02:07:48.254012+00:00",
+  "total_rows": 1050603,
+  "processed_rows": 1050603,
+  "expected_total_rows": 1050603,
+  "chunks_processed_first_pass": 16159,
+  "schema_errors": 0,
+  "missing_values": {
+    "location_id": 0,
+    "sensors_id": 0,
+    "location": 0,
+    "datetime": 0,
+    "lat": 0,
+    "lon": 0,
+    "parameter": 0,
+    "units": 0,
+    "value": 0
+  },
+  "nonnumeric_values": {
+    "location_id": 0,
+    "sensors_id": 0,
+    "lat": 0,
+    "lon": 0,
+    "value": 0
+  },
+  "nonfinite_values": {
+    "location_id": 0,
+    "sensors_id": 0,
+    "lat": 0,
+    "lon": 0,
+    "value": 0
+  },
+  "invalid_values": {
+    "location_id": 0,
+    "sensors_id": 0,
+    "lat": 0,
+    "lon": 0,
+    "value": 0,
+    "location_id_not_integer": 0,
+    "sensors_id_not_integer": 0,
+    "latitude_range": 0,
+    "longitude_range": 0,
+    "datetime": 0
+  },
+  "invalid_values_note": "For numeric columns, invalid_values includes missing, nonnumeric, and non-finite values; these categories can overlap with the separate missing_values and nonnumeric_values counters. Range and identifier-integrality errors are counted separately.",
+  "exact_duplicate_definition": "All expected parsed field values match after stable JSON serialization; this is not byte-for-byte CSV comparison.",
+  "exact_duplicate_groups": 0,
+  "extra_exact_duplicate_rows": 0,
+  "unique_location_names": 15,
+  "unique_location_ids": 12,
+  "unique_sensor_ids": 55,
+  "parameter_counts": {
+    "pm10": 187097,
+    "pm25": 221779,
+    "co": 93900,
+    "no2": 208428,
+    "bc": 28723,
+    "no": 28736,
+    "so2": 88306,
+    "nox": 13070,
+    "o3": 180564
+  },
+  "units_by_parameter": {
+    "bc": {
+      "µg/m³": 28723
+    },
+    "co": {
+      "µg/m³": 59180,
+      "ppm": 34720
+    },
+    "no2": {
+      "µg/m³": 164947,
+      "ppm": 43481
+    },
+    "pm10": {
+      "µg/m³": 187097
+    },
+    "pm25": {
+      "µg/m³": 221779
+    },
+    "no": {
+      "ppm": 13070,
+      "µg/m³": 15666
+    },
+    "nox": {
+      "ppm": 13070
+    },
+    "so2": {
+      "ppm": 39274,
+      "µg/m³": 49032
+    },
+    "o3": {
+      "µg/m³": 93486,
+      "ppm": 87078
+    }
+  },
+  "measurement_statistics": {
+    "bc": {
+      "count": 28723,
+      "min": 0.06,
+      "max": 45.655,
+      "mean": 0.9919846116352761
+    },
+    "co": {
+      "count": 93900,
+      "min": -999000.0,
+      "max": 10050.0,
+      "mean": 28.541331219908287
+    },
+    "no2": {
+      "count": 208428,
+      "min": -999.0,
+      "max": 384.2,
+      "mean": 26.021823880549665
+    },
+    "pm10": {
+      "count": 187097,
+      "min": -2.6,
+      "max": 7331.9,
+      "mean": 25.218870051169166
+    },
+    "pm25": {
+      "count": 221779,
+      "min": -999.0,
+      "max": 1985.0,
+      "mean": 14.44175260056181
+    },
+    "no": {
+      "count": 28736,
+      "min": -1.8,
+      "max": 423.0,
+      "mean": 9.348409507238305
+    },
+    "nox": {
+      "count": 13070,
+      "min": 0.001,
+      "max": 0.276,
+      "mean": 0.01987826319816374
+    },
+    "so2": {
+      "count": 88306,
+      "min": -999.0,
+      "max": 62.8,
+      "mean": 2.616966244649267
+    },
+    "o3": {
+      "count": 180564,
+      "min": -6755.5,
+      "max": 348.9,
+      "mean": 24.240571915525223
+    }
+  },
+  "outlier_analysis": {
+    "method": "Tukey IQR",
+    "multiplier": 1.5,
+    "quantile_method": "linear interpolation at position (n - 1) * p",
+    "grouping": [
+      "parameter",
+      "units"
+    ],
+    "thresholds": {
+      "bc|µg/m³": {
+        "measurement_count": 28723,
+        "q1": 0.43,
+        "q3": 1.3,
+        "iqr": 0.8700000000000001,
+        "lower_bound": -0.8750000000000002,
+        "upper_bound": 2.6050000000000004
+      },
+      "co|ppm": {
+        "measurement_count": 34720,
+        "q1": 0.2,
+        "q3": 0.5,
+        "iqr": 0.3,
+        "lower_bound": -0.24999999999999994,
+        "upper_bound": 0.95
+      },
+      "co|µg/m³": {
+        "measurement_count": 59180,
+        "q1": 200.0,
+        "q3": 707.0,
+        "iqr": 507.0,
+        "lower_bound": -560.5,
+        "upper_bound": 1467.5
+      },
+      "no|ppm": {
+        "measurement_count": 13070,
+        "q1": 0.0008,
+        "q3": 0.006,
+        "iqr": 0.0052,
+        "lower_bound": -0.006999999999999999,
+        "upper_bound": 0.0138
+      },
+      "no|µg/m³": {
+        "measurement_count": 15666,
+        "q1": 2.2,
+        "q3": 24.2,
+        "iqr": 22.0,
+        "lower_bound": -30.8,
+        "upper_bound": 57.2
+      },
+      "no2|ppm": {
+        "measurement_count": 43481,
+        "q1": 0.008,
+        "q3": 0.024,
+        "iqr": 0.016,
+        "lower_bound": -0.016,
+        "upper_bound": 0.048
+      },
+      "no2|µg/m³": {
+        "measurement_count": 164947,
+        "q1": 14.8,
+        "q3": 46.6,
+        "iqr": 31.8,
+        "lower_bound": -32.900000000000006,
+        "upper_bound": 94.30000000000001
+      },
+      "nox|ppm": {
+        "measurement_count": 13070,
+        "q1": 0.0081999999999999,
+        "q3": 0.024,
+        "iqr": 0.0158000000000001,
+        "lower_bound": -0.015500000000000248,
+        "upper_bound": 0.047700000000000145
+      },
+      "o3|ppm": {
+        "measurement_count": 87078,
+        "q1": 0.013,
+        "q3": 0.035,
+        "iqr": 0.022000000000000006,
+        "lower_bound": -0.02000000000000001,
+        "upper_bound": 0.068
+      },
+      "o3|µg/m³": {
+        "measurement_count": 93486,
+        "q1": 16.76387923,
+        "q3": 69.7,
+        "iqr": 52.93612077,
+        "lower_bound": -62.640301925,
+        "upper_bound": 149.104181155
+      },
+      "pm10|µg/m³": {
+        "measurement_count": 187097,
+        "q1": 13.0,
+        "q3": 33.0,
+        "iqr": 20.0,
+        "lower_bound": -17.0,
+        "upper_bound": 63.0
+      },
+      "pm25|µg/m³": {
+        "measurement_count": 221779,
+        "q1": 6.7,
+        "q3": 25.9,
+        "iqr": 19.2,
+        "lower_bound": -22.099999999999998,
+        "upper_bound": 54.699999999999996
+      },
+      "so2|ppm": {
+        "measurement_count": 39274,
+        "q1": 0.0,
+        "q3": 0.0003,
+        "iqr": 0.0003,
+        "lower_bound": -0.00045,
+        "upper_bound": 0.00075
+      },
+      "so2|µg/m³": {
+        "measurement_count": 49032,
+        "q1": 2.2,
+        "q3": 7.1,
+        "iqr": 4.8999999999999995,
+        "lower_bound": -5.1499999999999995,
+        "upper_bound": 14.45
+      }
+    },
+    "flagged_counts": {
+      "bc|µg/m³|iqr_high": 1321,
+      "bc|µg/m³|iqr_low": 0,
+      "co|ppm|iqr_high": 1639,
+      "co|ppm|iqr_low": 0,
+      "co|µg/m³|candidate_sentinel": 26,
+      "co|µg/m³|iqr_high": 980,
+      "co|µg/m³|iqr_low": 26,
+      "co|µg/m³|negative_reading": 26,
+      "no|ppm|iqr_high": 1402,
+      "no|ppm|iqr_low": 0,
+      "no|ppm|negative_reading": 1,
+      "no|µg/m³|iqr_high": 1068,
+      "no|µg/m³|iqr_low": 0,
+      "no|µg/m³|negative_reading": 35,
+      "no2|ppm|iqr_high": 325,
+      "no2|ppm|iqr_low": 0,
+      "no2|µg/m³|candidate_sentinel": 26,
+      "no2|µg/m³|iqr_high": 3220,
+      "no2|µg/m³|iqr_low": 26,
+      "no2|µg/m³|negative_reading": 134,
+      "nox|ppm|iqr_high": 1026,
+      "nox|ppm|iqr_low": 0,
+      "o3|ppm|iqr_high": 844,
+      "o3|ppm|iqr_low": 0,
+      "o3|ppm|negative_reading": 19,
+      "o3|µg/m³|candidate_sentinel": 26,
+      "o3|µg/m³|iqr_high": 930,
+      "o3|µg/m³|iqr_low": 29,
+      "o3|µg/m³|negative_reading": 261,
+      "pm10|µg/m³|iqr_high": 5071,
+      "pm10|µg/m³|iqr_low": 0,
+      "pm10|µg/m³|negative_reading": 128,
+      "pm25|µg/m³|candidate_sentinel": 4083,
+      "pm25|µg/m³|iqr_high": 26791,
+      "pm25|µg/m³|iqr_low": 4083,
+      "pm25|µg/m³|negative_reading": 5066,
+      "so2|ppm|iqr_high": 8221,
+      "so2|ppm|iqr_low": 0,
+      "so2|ppm|negative_reading": 361,
+      "so2|µg/m³|candidate_sentinel": 26,
+      "so2|µg/m³|iqr_high": 1210,
+      "so2|µg/m³|iqr_low": 26,
+      "so2|µg/m³|negative_reading": 26
+    },
+    "sample_limit_per_category": 250,
+    "summary_csv": "C:\\Users\\Asus\\OneDrive\\Documents\\Database_Tipping_Point\\results\\outlier_summary.csv",
+    "samples_csv": "C:\\Users\\Asus\\OneDrive\\Documents\\Database_Tipping_Point\\results\\outlier_samples.csv",
+    "note": "Flags are for investigation only. No measurements were deleted or corrected. Negative values and sentinel candidates are not automatically considered errors."
+  },
+  "resource_usage": {
+    "audit_elapsed_seconds": 273.785,
+    "sqlite_working_database_size_bytes_before_cleanup": 324202496,
+    "sqlite_working_database_retained": false,
+    "sqlite_cache_limit_mib": 16,
+    "note": "Elapsed time covers the audit script through report preparation. It is not a controlled CPU benchmark. Database size is measured before optional cleanup; WAL/SHM sidecars may also consume space."
+  },
+  "reproducibility": {
+    "expected_columns": [
+      "location_id",
+      "sensors_id",
+      "location",
+      "datetime",
+      "lat",
+      "lon",
+      "parameter",
+      "units",
+      "value"
+    ],
+    "chunk_reader": "dataset_utils.read_chunks",
+    "measurement_storage": "SQLite disk-backed table",
+    "duplicate_storage": "SQLite full-row serialized key",
+    "source_modified": false
+  }
+}

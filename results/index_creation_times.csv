@@ -1,0 +1,5 @@
+database,index_name,columns,status,creation_time_ms
+MySQL,idx_parameter_units_datetime,"parameter, units, datetime",CREATED,3708.6847
+MySQL,idx_sensors_id,sensors_id,CREATED,2332.1173
+MongoDB,idx_parameter_units_datetime,"parameter:1, units:1, datetime:1",CREATED,4018.2485
+MongoDB,idx_sensors_id,sensors_id:1,CREATED,3138.3031

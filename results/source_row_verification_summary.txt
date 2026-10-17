@@ -1,0 +1,18 @@
+SOURCE ROW VERIFICATION SUMMARY
+Sample rows checked: 1000
+Distinct source files referenced: 104
+ZIP archive: C:\Users\Asus\OneDrive\Documents\Database_Tipping_Point\data_raw\data_gang_gang.zip
+
+Verification outcomes:
+  MATCHED_ONCE: 1000
+  MATCHED_MULTIPLE_TIMES: 0
+  NO_MATCH_FOUND: 0
+  SOURCE_FILE_NOT_IN_ZIP: 0
+  MISSING_SOURCE_FILE: 0
+
+Interpretation:
+- MATCHED_ONCE means the sampled record was found once in its named source file.
+- MATCHED_MULTIPLE_TIMES means the matching record appeared more than once in that file.
+- NO_MATCH_FOUND means no matching record was found in the named file; inspect formatting or source mapping.
+- This verifies traceability only. It does not prove whether a value is scientifically valid or a sentinel code.
+- No source files or measurements were modified.
